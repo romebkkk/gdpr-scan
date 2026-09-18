@@ -1,0 +1,22 @@
+# Reports & output
+*.html
+!templates/*.html
+*.json
+!package.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Playwright
+.cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
