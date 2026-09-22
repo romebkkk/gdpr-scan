@@ -47,6 +47,18 @@ python gdpr_scan.py example.com --json
 | `--json` | Print structured JSON (for pipelines / integrations) |
 | `--timeout 30000` | Page load timeout in ms |
 
+## 🌐 Web UI (localhost)
+
+Prefer a visual interface? Launch the local web app:
+
+```bash
+pip install -r requirements.txt
+python -m playwright install chromium
+python app.py
+```
+
+Then open **http://localhost:8000**, type a URL and get a live, shareable compliance report — score, findings and fix-it tips, all in the browser.
+
 ## ⚖️ Disclaimer
 
 `GDPR Scan` is an **informational tool**, not legal advice and not a certification. GDPR/ePrivacy compliance depends on your specific data processing, legal basis and documentation. Use the results as a **starting checklist** and consult a professional for a formal assessment. Scans only load the public page as a normal visitor would.

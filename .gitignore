@@ -1,8 +1,7 @@
-# Reports & output
-*.html
-!templates/*.html
-*.json
-!package.json
+# Generated reports (keep the web UI at web/index.html tracked)
+informe.html
+report*.html
+*-report.html
 
 # Python
 __pycache__/

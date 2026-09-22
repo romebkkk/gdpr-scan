@@ -1,1 +1,2 @@
 playwright>=1.40
+flask>=3.0
