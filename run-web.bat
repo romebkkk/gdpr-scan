@@ -1,7 +1,8 @@
 @echo off
 chcp 65001 > nul
 title GDPR Scan - Web
-echo Iniciando GDPR Scan Web en http://localhost:8000 ...
-start "" http://localhost:8000
+set PORT=8777
+echo Iniciando GDPR Scan Web en http://localhost:%PORT% ...
+start "" http://localhost:%PORT%
 py app.py
 pause
